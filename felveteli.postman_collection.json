@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "1cf0b3ad-2dc8-4666-9b16-8af8feb299de",
+		"name": "felveteli",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41647397"
+	},
+	"item": [
+		{
+			"name": "szerverMukodese",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "osszpont",
+			"request": {
+				"auth": {
+					"type": "inherit"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/diakok",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"diakok"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
